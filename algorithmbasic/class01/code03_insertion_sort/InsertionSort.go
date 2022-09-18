@@ -45,9 +45,6 @@ func generateRandomArray(maxSize, maxValue int) []int {
 	rand.Seed(time.Now().UnixNano())
 	size := rand.Intn(maxSize) + 1
 	arr := make([]int, size)
-
-	// rand.Intn(N)      ——> [0, N-1]
-	// rand.Intn(N) + 1  ——> [1, N]
 	for i := 0; i < size; i++ {
 		// [-maxValue+2, maxValue]
 		arr[i] = (rand.Intn(maxValue) + 1) - (rand.Intn(maxValue))
