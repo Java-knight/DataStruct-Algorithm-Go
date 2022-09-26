@@ -14,4 +14,18 @@ sort.Ints(arr)
 
 // StringBuilder, 请查看 utils包的stringBuilder
 // Stack, 请查看 utils包的stack
+// heap的使用, 请查看tests/heap.go
+// Go语言中 bool值不支持异或操作, 请查看 utils包的orx
+// Go语言中不支持无符号位左右移动(<<<、>>>), 但是可以通过设置变量为无符号位
 ```
+
+leetcode 22 如果只要求数量, 那就是科特兰数
+leetcode 23 需要使用小根堆, 需要自己实现一下
+
+## Go语言的集合
+go语言也是有集合的实现的, 但是它只定义了通用的规则, 具体的调用方式完全由调用方决定。
+> 集合包: sdk/container/
+
+里面有list、heap、ring的实现, 比如`heap`, 它里面就只定义了 heapify、up、down 操作。 
+而调用方需要调用的Push\Pop都是需要自己实现, heap.go 提供了一些接口, 包含比较器Less。
+这样更加方便, 连IsEmpty都没有需要自己实现。离谱...
