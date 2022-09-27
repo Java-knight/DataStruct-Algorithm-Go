@@ -17,6 +17,7 @@ sort.Ints(arr)
 // heap的使用, 请查看tests/heap.go
 // Go语言中 bool值不支持异或操作, 请查看 utils包的orx
 // Go语言中不支持无符号位左右移动(<<<、>>>), 但是可以通过设置变量为无符号位
+// 数字转字符串，Java一般是 String.valueOf(num), Go语言需要string(num + '0')
 ```
 
 leetcode 22 如果只要求数量, 那就是科特兰数
