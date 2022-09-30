@@ -1,4 +1,4 @@
-package _070_sqrt_x
+package _069_sqrt_x
 
 // x的平方根
 // https://leetcode.cn/problems/sqrtx/

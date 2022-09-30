@@ -1,5 +1,4 @@
-//package _067_add_binary
-package main
+package _067_add_binary
 
 import "strconv"
 
