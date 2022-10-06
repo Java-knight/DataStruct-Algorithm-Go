@@ -1,4 +1,4 @@
-package _188_0123_best_time_to_buy_and_sell_stock_iv
+package _188_best_time_to_buy_and_sell_stock_iv
 
 // 买卖股票的最佳时机III
 // https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/
